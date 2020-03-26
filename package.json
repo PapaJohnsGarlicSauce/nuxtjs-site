@@ -1,0 +1,17 @@
+{
+  "name": "nuxtjs-site",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "build:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build",
+    "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.12.1"
+  },
+  "devDependencies": {
+    "push-dir": "^0.4.1"
+  }
+}
