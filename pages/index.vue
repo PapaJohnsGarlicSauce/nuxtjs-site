@@ -1,3 +1,14 @@
 <template>
-  <h1>I am hosted with Github pages!</h1>
+<div id="app">
+  <TestMessage />
+</div>
 </template>
+
+<script>
+import TestMessage from '@/components/test-message'
+
+export default {
+  name: 'Index',
+  components: { TestMessage }
+};
+</script>
