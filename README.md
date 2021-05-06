@@ -1,6 +1,6 @@
 # Victoria Lang
 
-> Personal webpage built with NuxtJS
+> Nuxtjs test build (will probably delete this repo in the future)
 
 ## Build Setup
 
